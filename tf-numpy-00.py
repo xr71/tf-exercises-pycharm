@@ -23,3 +23,8 @@ history = my_model.fit(X, y, epochs=51, batch_size=10)
 
 print(history.history)
 print(my_model.get_weights())
+
+plt.scatter(X, y)
+plt.plot(X, my_model.predict(X))
+plt.show()
+
