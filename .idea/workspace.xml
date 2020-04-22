@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304afad4-1b3e-4659-94fb-c7594fbca8b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris-demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tf-pycharm-exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tf-pycharm-exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banknotes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scimode.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tfdata_data_pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic-with-tf-data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf-numpy-00.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf-numpy-00.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iris-demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/iris-demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,21 +23,29 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Xu Ren" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/iris-demo.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/iris-demo.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="kesl5dew" />
   </component>
   <component name="ProjectId" id="1a4lJNLZ7f5cLrEjQQaO9YpWfIF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -121,46 +131,83 @@
       <option name="presentableId" value="Default" />
       <updated>1586002673634</updated>
     </task>
+    <task id="LOCAL-00001" summary="iris demo init">
+      <created>1587517538878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587517538878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="iris demo init" />
+    <option name="LAST_COMMIT_MESSAGE" value="iris demo init" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1225" y="728" width="540" height="515" key="#Notifications" timestamp="1587523911197">
+      <screen x="0" y="0" width="3000" height="2000" />
+    </state>
+    <state x="1225" y="728" width="540" height="515" key="#Notifications/0.0.3000.2000@0.0.3000.2000" timestamp="1587523911197" />
     <state x="595" y="218" width="1792" height="1506" key="#Plugins" timestamp="1587481225364">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state x="595" y="218" width="1792" height="1506" key="#Plugins/0.0.3000.2000@0.0.3000.2000" timestamp="1587481225364" />
-    <state width="2841" height="503" key="GridCell.Tab.0.bottom" timestamp="1587516103854">
+    <state x="815" y="710" width="1360" height="522" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587523895071">
+      <screen x="0" y="0" width="3000" height="2000" />
+    </state>
+    <state x="815" y="710" width="1360" height="522" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3000.2000@0.0.3000.2000" timestamp="1587523895071" />
+    <state x="523" y="146" width="1945" height="1679" key="CommitChangelistDialog2" timestamp="1587517538355">
+      <screen x="0" y="0" width="3000" height="2000" />
+    </state>
+    <state x="523" y="146" width="1945" height="1679" key="CommitChangelistDialog2/0.0.3000.2000@0.0.3000.2000" timestamp="1587517538355" />
+    <state x="1018" y="624" width="1761" height="1236" key="DBNavigator.ProjectSettingsDialog" timestamp="1587525501035">
+      <screen x="0" y="0" width="3000" height="2000" />
+    </state>
+    <state x="1018" y="624" width="1761" height="1236" key="DBNavigator.ProjectSettingsDialog/0.0.3000.2000@0.0.3000.2000" timestamp="1587525501035" />
+    <state x="1416" y="716" width="954" height="1022" key="FileChooserDialogImpl" timestamp="1587525499187">
+      <screen x="0" y="0" width="3000" height="2000" />
+    </state>
+    <state x="1416" y="716" width="954" height="1022" key="FileChooserDialogImpl/0.0.3000.2000@0.0.3000.2000" timestamp="1587525499187" />
+    <state width="2891" height="555" key="GridCell.Tab.0.bottom" timestamp="1587550005439">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state width="1899" height="421" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586600395272" />
-    <state width="2841" height="503" key="GridCell.Tab.0.bottom/0.0.3000.2000@0.0.3000.2000" timestamp="1587516103854" />
-    <state width="2841" height="503" key="GridCell.Tab.0.center" timestamp="1587516103851">
+    <state width="2891" height="555" key="GridCell.Tab.0.bottom/0.0.3000.2000@0.0.3000.2000" timestamp="1587550005439" />
+    <state width="2891" height="555" key="GridCell.Tab.0.center" timestamp="1587550005437">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state width="1899" height="421" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586600395272" />
-    <state width="2841" height="503" key="GridCell.Tab.0.center/0.0.3000.2000@0.0.3000.2000" timestamp="1587516103851" />
-    <state width="2841" height="503" key="GridCell.Tab.0.left" timestamp="1587516103849">
+    <state width="2891" height="555" key="GridCell.Tab.0.center/0.0.3000.2000@0.0.3000.2000" timestamp="1587550005437" />
+    <state width="2891" height="555" key="GridCell.Tab.0.left" timestamp="1587550005434">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state width="1899" height="421" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586600395271" />
-    <state width="2841" height="503" key="GridCell.Tab.0.left/0.0.3000.2000@0.0.3000.2000" timestamp="1587516103849" />
-    <state width="2841" height="503" key="GridCell.Tab.0.right" timestamp="1587516103852">
+    <state width="2891" height="555" key="GridCell.Tab.0.left/0.0.3000.2000@0.0.3000.2000" timestamp="1587550005434" />
+    <state width="2891" height="555" key="GridCell.Tab.0.right" timestamp="1587550005438">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state width="1899" height="421" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586600395272" />
-    <state width="2841" height="503" key="GridCell.Tab.0.right/0.0.3000.2000@0.0.3000.2000" timestamp="1587516103852" />
+    <state width="2891" height="555" key="GridCell.Tab.0.right/0.0.3000.2000@0.0.3000.2000" timestamp="1587550005438" />
     <state x="359" y="198" width="2274" height="1576" key="SettingsEditor" timestamp="1587516893430">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state x="359" y="198" width="2274" height="1576" key="SettingsEditor/0.0.3000.2000@0.0.3000.2000" timestamp="1587516893430" />
+    <state x="595" y="424" width="1801" height="1123" key="Vcs.Push.Dialog.v2" timestamp="1587517546335">
+      <screen x="0" y="0" width="3000" height="2000" />
+    </state>
+    <state x="595" y="424" width="1801" height="1123" key="Vcs.Push.Dialog.v2/0.0.3000.2000@0.0.3000.2000" timestamp="1587517546335" />
     <state x="751" y="635" key="com.intellij.ide.util.TipDialog" timestamp="1586002685377">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state x="751" y="635" key="com.intellij.ide.util.TipDialog/0.0.3000.2000@0.0.3000.2000" timestamp="1586002685377" />
-    <state x="741" y="328" width="1502" height="1285" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587515903980">
+    <state x="741" y="328" width="1475" height="1198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587535122324">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state x="474" y="172" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1586595787465" />
-    <state x="741" y="328" width="1502" height="1285" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3000.2000@0.0.3000.2000" timestamp="1587515903980" />
+    <state x="741" y="328" width="1475" height="1198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3000.2000@0.0.3000.2000" timestamp="1587535122324" />
     <state x="764" y="685" width="1462" height="600" key="com.jetbrains.python.documentation.PythonDocumentationEntryEditor" timestamp="1587481366096">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
@@ -177,9 +224,20 @@
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state x="711" y="402" width="1575" height="1193" key="recent.locations.popup/0.0.3000.2000@0.0.3000.2000" timestamp="1587515931583" />
-    <state x="687" y="0" width="1698" height="1996" key="search.everywhere.popup" timestamp="1587517181100">
+    <state x="687" y="0" width="1698" height="1996" key="search.everywhere.popup" timestamp="1587548421782">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
-    <state x="687" y="0" width="1698" height="1996" key="search.everywhere.popup/0.0.3000.2000@0.0.3000.2000" timestamp="1587517181100" />
+    <state x="687" y="0" width="1698" height="1996" key="search.everywhere.popup/0.0.3000.2000@0.0.3000.2000" timestamp="1587548421782" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iris-demo.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
