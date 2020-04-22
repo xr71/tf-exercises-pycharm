@@ -43,11 +43,26 @@ model = tf.keras.Sequential([
 
 model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["accuracy"])
 
-history = model.fit(X_train_normed, Y_train, epochs=50)
+# history = model.fit(X_train_normed, Y_train, epochs=50)
+# model.evaluate(X_test_normed, Y_test)
 
 
-model.evaluate(X_test_normed, Y_test)
+# now using tf data pipeline with batching
+dataset = tf.data.Dataset.from_tensor_slices((X_train_normed.values, Y_train.values)).batch(64)
+
+# model.fit(dataset, epochs=10)
+# print(model.evaluate(X_test_normed, Y_test))
 
 
-# now using tf data pipeline 
-dataset = tf.data.Dataset.from_tensor_slices()
+# same thing but now with prefetching 
+dataset = tf.data.Dataset.from_tensor_slices((X_train_normed.values, Y_train.values)).batch(64).prefetch(2)
+
+# model.fit(dataset, epochs=50)
+# print(model.evaluate(X_test_normed, Y_test))
+
+
+
+# parallel loading
+# interleave
+
+# dataset = tf.data.Dataset.interleave(dataset, num_parallel_calls=tf.data.experimental.AUTOTUNE)
