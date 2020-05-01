@@ -25,7 +25,8 @@ df.pop("thal")
 target = df.pop("target")
 features = df.copy()
 
-X_train,X_test,Y_train,Y_test = train_test_split(features, target, test_size=0.3, random_state=1)
+X_train,X_test,Y_train,Y_test = train_test_split(features, target,
+                                                 test_size=0.3, random_state=1)
 
 def normalize(x, train_stats):
     return (x-train_stats["mean"]) / train_stats["std"]
@@ -48,14 +49,18 @@ model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["accuracy"]
 
 
 # now using tf data pipeline with batching
-dataset = tf.data.Dataset.from_tensor_slices((X_train_normed.values, Y_train.values)).batch(64)
+dataset = tf.data.Dataset.from_tensor_slices((X_train_normed.values,
+                                              Y_train.values)).batch(64)
 
 # model.fit(dataset, epochs=10)
 # print(model.evaluate(X_test_normed, Y_test))
 
 
-# same thing but now with prefetching 
-dataset = tf.data.Dataset.from_tensor_slices((X_train_normed.values, Y_train.values)).batch(64).prefetch(2)
+# same thing but now with prefetching
+dataset = tf.data.Dataset.from_tensor_slices((X_train_normed.values,
+                                        Y_train.values)).batch(64).prefetch(2)
+
+print(dataset)
 
 # model.fit(dataset, epochs=50)
 # print(model.evaluate(X_test_normed, Y_test))
